@@ -1,4 +1,4 @@
-const productRouter =require("../Models/productModel.js")
+const productRouter =require("../models/productModel.js")
 const {v4 : uuid} = require("uuid")
 
 
