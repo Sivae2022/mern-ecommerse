@@ -33,7 +33,7 @@ const DBconnect = async () => {
 
 DBconnect();
 
-const port = 8000;
+const port = 8000 || process.env.PORT;
 app.listen(port, () => {
     console.log(`PORT RUNNING AT ${port}`);
 });
